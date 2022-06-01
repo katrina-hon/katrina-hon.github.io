@@ -90,8 +90,6 @@ strong, span {
   line-height: 50px;
   text-align: center;
   margin-top: 32px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
 }
 
 .arrow-btn i:hover {
@@ -110,8 +108,6 @@ html{
 
 a {
   color: #575757;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
   text-decoration: none !important;
 }
 
@@ -276,8 +272,6 @@ a:hover, a:active, a:focus {
   overflow: hidden;
   position: relative;
   top: 0;
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
 }
 
 #work .work-thumb:hover {
@@ -288,7 +282,8 @@ a:hover, a:active, a:focus {
 
 #work .work-thumb img {
   border-radius: 5px;
-  cursor: crosshair;
+  cursor: pointer;
+  width: 100%;
 }
 
 /*---------------------------------------
@@ -303,8 +298,6 @@ a:hover, a:active, a:focus {
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 10px;
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
 }
 
 #contact input {
@@ -358,7 +351,6 @@ footer .col-md-4 .support-cus p {
 
 footer .newsletter .form-control {
   box-shadow: none;
-  transition: all 0.4s ease-in-out;
   margin-top: 16px;
   margin-bottom: 2px;
 }
@@ -418,7 +410,6 @@ footer .dash-line {
   cursor: pointer;
   font-size: 16px;
   text-decoration: none;
-  transition: all 0.4s ease-in-out;
   width: 30px;
   height: 30px;
   line-height: 30px;
