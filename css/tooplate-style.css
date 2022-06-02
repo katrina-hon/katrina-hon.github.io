@@ -287,6 +287,31 @@ a:hover, a:active, a:focus {
 }
 
 /*---------------------------------------
+  Digital section              
+-----------------------------------------*/
+
+#digital .work-thumb {
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+}
+
+#digital .work-thumb:hover {
+  background: #ffffff;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+
+#digital .work-thumb img {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/*---------------------------------------
   Contact section              
 -----------------------------------------*/
 
