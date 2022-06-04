@@ -49,16 +49,16 @@
       alt: "Colored pencil",
     },
     {
-      src: "KH2-min.jpg",
-      alt: "Mixed collage and pencil",
+      src: "KH4-min.jpg",
+      alt: "Pencil and graphite",
     },
     {
       src: "KH3-min.jpg",
       alt: "Collage",
     },
     {
-      src: "KH4-min.jpg",
-      alt: "Pencil and graphite",
+      src: "KH2-min.jpg",
+      alt: "Mixed collage and pencil",
     },
     {
       src: "KH23-min.jpg",

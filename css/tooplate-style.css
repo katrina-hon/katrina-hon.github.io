@@ -290,6 +290,10 @@ a:hover, a:active, a:focus {
   Digital section              
 -----------------------------------------*/
 
+#digital {
+  background: #ffffff;
+}
+
 #digital .work-thumb {
   border-radius: 5px;
   margin-bottom: 15px;
