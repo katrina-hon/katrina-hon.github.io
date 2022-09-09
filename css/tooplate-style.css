@@ -132,6 +132,30 @@ a:hover, a:active, a:focus {
   padding-bottom: 32px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.sticky + #images-fine {
+  padding-top: 109px;
+}
+
+.sticky + .xxx {
+  padding-top: 140px;
+}
+
+.sticky > .dynamic-hidden {
+  /* display: none; */
+}
+
+.sticky + #yyy {
+  padding-top: 100px;
+}
+
 .parallax-section {
   background-attachment: fixed !important;
   background-size: contain !important;
